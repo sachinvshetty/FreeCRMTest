@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mascamo CRM module">
+  <test verbose="2" name="Free mascamo CRM test cases">
+    <classes>
+      <class name="com.mascamo.qa.testcases.LoginPageTest"/>
+      <class name="com.mascamo.qa.testcases.HomePageTest"/>
+      <class name="com.mascamo.qa.testcases.ContactsPageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

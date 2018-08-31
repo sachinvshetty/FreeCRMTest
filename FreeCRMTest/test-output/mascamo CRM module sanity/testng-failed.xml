@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mascamo CRM module sanity]">
+  <test name="Free mascamo CRM test cases sanity (failed)">
+    <classes>
+      <class name="com.mascamo.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mascamo.qa.testcases.LoginPageTest -->
+      <class name="com.mascamo.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="VerifyContactLinkTest"/>
+          <include name="Verifyusernamehometest"/>
+        </methods>
+      </class> <!-- com.mascamo.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Free mascamo CRM test cases sanity (failed) -->
+</suite> <!-- Failed suite [mascamo CRM module sanity] -->
